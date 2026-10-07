@@ -1,0 +1,10 @@
+{
+  "name": "meals",
+  "version": "1.0.0",
+  "private": true,
+  "description": "夕食献立プランナー（栄養バランス・食材の使い切り・残り食材・週間レビュー）",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "test": "node --test tests/*.test.js"
+  }
+}
